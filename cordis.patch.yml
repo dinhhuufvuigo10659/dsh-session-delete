@@ -1,0 +1,9 @@
+# ============================================================================
+# @local/dsh-session-delete —— DSH bundle patch
+# ============================================================================
+# 挂载本插件的宿主半区：一个只监听回环地址的 HTTP 路由
+#（/dsh-session-delete/delete），负责把会话从磁盘上真正删掉。
+# 浏览器半区通过 package.json 的 dsh.client 声明加载。
+- insert:
+    - id: dsh-session-delete
+      name: '@local/dsh-session-delete'

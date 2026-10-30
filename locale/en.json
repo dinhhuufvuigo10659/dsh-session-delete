@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Right-click Delete Session",
+    "description": "Right-click a Session in the sidebar to permanently delete its log from disk, with confirmation."
+  }
+}
